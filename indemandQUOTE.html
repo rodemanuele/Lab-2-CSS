@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>InDEMANd QUOTE</title>
+<link rel="stylesheet" href="aboutus.css"/>
+
+</head>
+
+<body>
+  <div class="header" id="announcement">
+    <h2 style="text-align: center;">InDEMANd Automotive will be closed July 17th-21st 2025, Sorry for any Inconvenience</h2>
+    </div>
+  <style>
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+    .header {
+      position: sticky;
+    }
+    </style>
+  <img src="/Users/ryleighdemanuele/WEBDEV LABS/Images/InDEMANDAutologo.png" alt="banner" class="responsive" >
+    
+  <div class="quote">
+  <h3 style="text-align: center;">Please Request a Quote</h3>
+  </div>
+  <div class="formm">
+  <form name="form1" id="form1" action="/action_page.php">
+    Year of Vehicle: <select name="year" id="year">
+      <option value="" selected="selected">Select Year</option>
+      <option value="volvo">1992</option>
+    <option value="saab">1993</option>
+    <option value="fiat">1994</option>
+    <option value="audi">1995</option>
+    </select>
+    <br><br>
+    Vehicle Make: <select name="make" id="make">
+      <option value="" selected="selected">Pleases select Year first</option>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <br><br>
+    Vehicle Model: <select name="model" id="model">
+      <option value="" selected="selected">Please select Make first</option>
+      <option value="volvo">Cross Country</option>
+    <option value="saab">90</option>
+    <option value="fiat">Panda</option>
+    <option value="audi">Q5</option>
+    </select>
+    <br><br>
+    Vehicle Package: <select name="trim" id="trim">
+      <option value="" selected="selected">Please select model first</option>
+      <option value="volvo">CE</option>
+    <option value="saab">LE</option>
+    <option value="fiat">Sport</option>
+    <option value="audi">4X4</option>
+    </select>
+    <h3 style="text-align: center;">Once you click submit you will be redirected to the landing page.</h3>
+  
+    <input type="button" onclick="location='index.html'" value="SUBMIT" />
+  </form>
+  </div>
+</body>
